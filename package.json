@@ -4,9 +4,7 @@
   "description": "A codebase for a fullstack",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client \"",
-    "client": "npm start --prefix client",
-    "server": "nodemon server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,15 +18,11 @@
   "homepage": "https://github.com/AyalTech/full-stack-react-app#readme",
   "devDependencies": {
     "concurrently": "^4.1.2",
-    "eslint": "^6.2.2",
     "nodemon": "^1.19.1"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
-    "pg": "^7.12.1",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "pg": "^7.12.1"
   }
 }
